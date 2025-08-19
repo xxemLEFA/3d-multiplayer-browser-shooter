@@ -1,5 +1,9 @@
 import { createWorld, addEntity, addComponent, pipe } from 'bitecs';
 import { Input, Keybindings, Position } from './components';
+
+
+import { RenderSystem } from './systems/RenderSystem.js'; 
+
 import {
   TimeSystem,
   InputSystem,
